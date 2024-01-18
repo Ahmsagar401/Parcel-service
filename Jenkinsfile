@@ -8,5 +8,9 @@ stages {
   }
   stage('build') {
     steps {
-      sh 
-    
+      sh 'mvn --version'
+      sh 'mvn clean install'
+    }
+  }
+}
+}
