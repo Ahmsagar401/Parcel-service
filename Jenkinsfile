@@ -3,7 +3,7 @@ pipeline {
 stages {
   stage('checkout') {
     steps {
-      sh 'rm -rf Parcel_service'
+      sh 'rm -rf Parcel-service'
       sh 'git clone https://github.com/Ahmsagar401/Parcel-service.git'
     }
   }
