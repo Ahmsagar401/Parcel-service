@@ -10,6 +10,7 @@ stages {
     steps {
       sh 'mvn --version'
       sh 'mvn clean install'
+      sh 'mvn spring-boot:run'
     }
   }
 }
